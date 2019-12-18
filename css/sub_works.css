@@ -1,0 +1,174 @@
+/*
+    <COLOR>
+    #222222
+    #3C3C3C
+    #848484
+    #DBDBDB
+    #FFFFFF
+    #FFC400 / #F39C12
+
+    <Font>
+    'Roboto' / 100,300,400,500,700,900
+    'Roboto Slab' / 300, 400, 700
+    'Nanum Gothic' / 400, 700
+*/
+
+/* -- --------------------------- CONTENTS --------------------------- -- */
+#main .gnb {
+    font-size: 2.0rem;
+    color: #848484;
+    cursor: default;
+    padding: 16px 0 48px 24px;
+}
+
+.contents {
+    overflow: hidden;
+}
+.contents .list {
+    position: relative;
+    float: left;
+    width: 200px;
+    padding-top: 32px;
+    padding-left: 24px;
+    box-sizing: border-box;
+    
+    background: rgb(255,255,255);
+}
+
+.contents .list .category {
+    padding-bottom: 24px;   
+}
+.contents .list .category p {
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: underline;
+    padding-bottom: 12px;
+    cursor: default;
+}
+.contents .list .category>ul {
+    font-family: 'Nanum Gothic';
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.contents .list .category>ul>li {
+    padding-bottom: 8px;
+}.contents .list .category>ul>li.on {
+    color: #F39C12;
+    font-weight: 700;
+}
+
+
+/* -- --------------------------- CONTENTS --------------------------- -- */
+.contents .detail {
+    position: relative;
+    float: right;
+    width: calc( 100% - 200px);
+    padding: 16px 24px 64px;
+    box-sizing: border-box;
+    line-height: 1.2;
+    background: rgb(252,252,252);
+}
+.contents .detail h6 {
+    color: #F39C12;
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding-bottom: 12px;
+    text-decoration: underline;
+}
+.contents .detail p {
+    font-size: 1.6rem;
+}
+.contents .detail .title {
+    font-family: 'Nanum Gothic';
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+.contents .detail .sub_title {
+    font-family: 'Nanum Gothic';
+    font-size: 1.8rem;
+    padding-bottom: 64px;
+}
+.contents .detail .category {
+    padding-bottom: 48px;
+}
+.contents .detail .summary {
+    padding-bottom: 48px;
+    width: 80%;
+}
+.contents .detail .summary p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+.contents .detail .summary p .bold {
+    font-weight: 700;   
+}
+.contents .detail .workflow {
+    padding-bottom: 48px;
+}
+.contents .detail .timeline {
+    padding-bottom: 48px;
+}
+.contents .detail .image {
+    padding-bottom: 48px;
+    width: 100%;
+    text-align: center; 
+}
+.contents .detail .image h6 {
+    text-align: left;
+    padding-bottom: 32px;
+}
+.contents .detail .image .imgBox {
+    padding-bottom: 96px;   
+}
+.contents .detail .image img {
+    width: 80%;
+}
+.contents .detail .image img.halfSize {
+    width: 50%;   
+}
+.contents .detail .image .label {
+    font-family: 'Nanum Gothic';
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.contents .detail .image .desc {
+    font-family: 'Nanum Gothic';
+    padding-top: 16px;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+
+.contents .detail .image .page_btn {
+    text-align: center;
+    font-family: 'Nanum Gothic';
+    font-size: 1.5rem;
+    color: #3C3C3C;
+}
+.contents .detail .image .page_btn>a {
+    padding: 8px 16px;
+    border: 2px solid #FFC400;
+    border-radius: 2px;
+}
+.contents .detail .image .page_btn>a:hover {
+    color: #F39C12;
+    font-weight: 700;
+}
+
+.contents .detail .btn {
+    text-align: center;   
+}
+.contents .detail .pageTop_btn {
+    display: inline-block;
+    padding: 8px 32px;
+    border: 2px solid #DBDBDB;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #848484;
+    font-size: 1.5rem;
+}

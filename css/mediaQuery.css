@@ -1,0 +1,150 @@
+
+
+
+/* ---------------------------- * TABLET * ---------------------------- */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    
+    html { font-size: ; }
+    
+    /* ------------------ * HEADER * ------------------ */
+
+    
+    /* ------------------ * MAIN * ------------------ */   
+    #gnb .list li {
+        padding: 0 40px;
+    }  
+    #about .greeting {
+        width: 90%;
+    }
+    #about .achievement {
+        width: 90%;
+    }
+    
+    #works .contents ul li {
+        width: 31.33%; 
+        padding: 0 1% 2.5% 1%;
+    }
+    
+    /* ------------------ * FOOTER * ------------------ */
+    
+}
+/* ---------------------------- * TABLET * ---------------------------- */
+
+
+
+
+/* ---------------------------- * MOBILE * ---------------------------- */
+@media screen and (max-width: 768px) {
+    
+    html { font-size: ; }
+ 
+    /* ------------------ * HEADER * ------------------ */
+    #header {
+        
+    }
+    #header .title {
+        padding-left: 0;
+        font-size: 3.0rem;
+        text-align: center;
+    }
+    #header .title .sub_title {
+        display: none;
+    }
+    #header .title .name {
+        font-weight: 500;   
+    }
+
+    
+    /* ------------------ * MAIN * ------------------ */  
+    #visual {
+        min-height: 360px;
+    }
+    #visual .txtEvent {
+        font-size: 3.2rem;  
+        padding-top: 100px;
+    }
+    #visual .txtEvent h2 {
+        padding-bottom: 10px;   
+    }
+    #gnb .list li {
+        padding: 0 10px;
+    }   
+    #main > section .title span {
+        padding-left: 16px;
+    }
+    #main > section .contents {
+        padding: 0 16px 0 16px;
+    }
+    .top_btn { 
+        display: none;
+    }
+    
+    
+    #about .greeting {
+        width: 98%;
+        font-size: 1.6rem;
+        line-height: 1.8;
+    }
+    #about .skills>li {
+        width: 80%;
+        padding: 0 10%;
+        margin-bottom: 56px;
+    }
+    #about .skills>li:last-child {
+        margin-bottom: 0;
+    }
+    #about .skills>li h4 {
+        padding-top: 24px; /*16px*/   
+    }
+    #about .skills>li p {
+        padding-top: 12px; /*16px*/
+    }
+    
+    #about .achievement {
+        width: 100%;
+        font-weight: 700;
+        font-size: 1.4rem;
+    }
+    #about .achievement .date {
+        font-weight: 400;   
+    }
+    
+    
+    #works .contents ul li {
+        width: 100%; 
+        padding: 0 0% 4% 0%;
+    }
+
+
+    
+    /* ------------------ * FOOTER * ------------------ */
+    #footer {
+        font-size: 1.5rem;
+        padding: 30px 0;
+    }
+    #footer .sns li a {
+        width: 27px; height: 27px;
+        line-height: 28px;
+        border-width: 1px;
+        margin: 0 7px;
+        background: #DBDBDB;
+    }
+    #footer .sns li a i {
+        font-size: 1.5rem; 
+        color: #fff;
+    }
+    #footer .writer {
+        display: block;
+        margin-top: 5px;
+    }
+}
+/* ---------------------------- * MOBILE * ---------------------------- */
+
+
+
+
+
+
+
+
+

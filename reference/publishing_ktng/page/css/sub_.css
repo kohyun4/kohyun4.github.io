@@ -1,0 +1,339 @@
+/*
+    <Font>
+    'Roboto' / 100,300,400,500,700,900
+    'Nanum Gothic' / 400, 700
+    'sangsang_body_M' 'sangsang_body_L'
+    'sangsang_title_M'
+*/
+.sub #header {
+    background: rgba(255, 255, 255, 1);
+}
+.on {
+    color: #069cd9;   
+/*    font-weight: bold;*/
+}
+/* -- --------------------------- VISUAL --------------------------- -- */
+#visual { 
+    position: relative;
+    padding-top: 56px;
+}
+#visual .sub_nb {
+    position: fixed;
+    width: 100%;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0px 0px 1px rgba(135,135,135,0.8);
+    z-index: 997;
+}
+#visual .sub_nb  ul {
+    padding: 0 10% 0 20%;  
+    text-align: center;
+}
+#visual .sub_nb ul > li {
+    float: left;
+    width: 20%;
+}
+#visual .sub_nb ul > li > a {
+    display: block;
+    height: 48px;
+    padding-top: 16px;
+    box-sizing: border-box;
+}
+#visual .image {
+    position: relative;
+    height: 480px;
+    background: url(../images/sub_intro/visual.jpg) no-repeat center top;
+    background-size: cover;
+}
+#visual .image .title {
+    font-family: 'sangsang_title_M';
+    font-size: 6.4rem;
+    color: #444;
+    padding-left: 10%;
+    padding-top: 72px;
+}
+/* -- --------------------------- VISUAL --------------------------- -- */
+
+
+#contents {
+    font-family: 'Nanum Gothic';
+    font-size: 1.5rem;
+    color: #222;
+}
+#contents .navigator {
+    text-align: right;
+    padding: 16px 5% 64px 0;
+}
+#contents .parts {
+    text-align: center;
+}
+#contents .parts .sub_title {
+    font-family: 'sangsang_title_M';
+    font-size: 4.0rem;   
+}
+#contents .parts .sub_title::after {
+    display: block;
+    content: '';
+    width: 48px; height: 3px;
+    background: #222;
+    margin: 32px auto 20px;
+}
+#contents .parts .desc {
+    font-size: 1.5rem;   
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+#contents .parts .box {
+    position: relative;
+    height: 760px;
+    margin-bottom: 128px;
+}
+#contents .parts .box .bg:before {
+    display: block;
+    content: '';
+    background: url(../images/sub_intro/img_box_top_cover.png) no-repeat top center;
+    width: 100%; height: 40px;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+}   
+#contents .parts .box .bg {
+    height: 100%;
+    background: url(../images/sub_intro/ad_01.jpg) no-repeat top center;
+    background-size: cover;
+}
+#contents .parts .box .curtain {
+    height: 100%;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+#contents .parts.num1 .box {
+    height: auto;   
+}
+#contents .parts.num1 .box .bg {
+    
+}
+#contents .parts.num1 .box .curtain {
+    background-color: rgba(0, 85, 145, 0.9);
+}
+#contents .parts.num1 .box .curtain > p {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'sangsang_body_M';
+    font-size: 3.5rem;
+    color: #fff;
+    line-height: 1.4;
+    padding-top: 100px;
+    margin-bottom: 84px;
+}
+#contents .parts.num1 .box .curtain > ul {
+    margin-bottom: 100px;   
+}
+#contents .parts.num1 .box .curtain > ul > li {
+    display: inline-block;
+    width: 320px; height: 320px;
+    border: 12px solid rgba(0, 120, 210, 1);
+    border-radius: 50%;
+    box-sizing: border-box;
+    background: #FFF;
+    margin: 16px;
+    padding: 84px 32px 16px;
+    line-height: 1.4;
+    vertical-align: top;
+    
+    /* DEFAULT */
+    position: relative;
+    top: 32px;
+    opacity: 0;
+}
+#contents .parts.num1 .box .curtain > ul > li:hover {
+
+}
+#contents .parts.num1 .box .curtain > ul > li span {
+    display: block;
+    font-family: 'sangsang_body_M';
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 24px;
+}
+
+
+#contents .parts.num2 .box .bg {
+    background-image: none;
+}
+#contents .parts.num2 .box .curtain {
+    
+}
+#contents .parts.num2 .box ul {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+#contents .parts.num2 .box ul > li {
+    float: left;
+    width: 33.3%; height: 360px;   
+    box-sizing: border-box;
+    background: url() no-repeat top center;
+    background-size: cover;
+}
+#contents .parts.num2 .box ul > li:nth-child(1) { 
+    background-image: url(../images/sub_intro/value_01.jpg);
+    height: 400px;
+    padding-top: 40px;
+}
+#contents .parts.num2 .box ul > li:nth-child(2) { 
+    background-image: url(../images/sub_intro/value_02.jpg);
+    height: 400px;
+}
+#contents .parts.num2 .box ul > li:nth-child(3) { 
+    background-image: url(../images/sub_intro/value_03.jpg);
+    height: 400px;
+    padding-top: 40px;
+}
+#contents .parts.num2 .box ul > li:nth-child(4) {
+    background-image: url(../images/sub_intro/value_04.jpg);  
+}
+#contents .parts.num2 .box ul > li:nth-child(5) { 
+    background-image: url(../images/sub_intro/value_05.jpg);
+}
+#contents .parts.num2 .box ul > li:nth-child(6) { 
+    background-image: url(../images/sub_intro/value_06.jpg);
+}
+#contents .parts.num2 .box ul > li:nth-child(2) .txt {
+    padding-top: calc(112px + 40px);
+}
+#contents .parts.num2 .box ul > li:nth-child(2):hover .txt {
+    padding-top: calc(64px + 40px);   
+}
+
+#contents .parts.num2 .box ul > li .txt {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 112px;
+    transition: all 0.5s;
+}
+#contents .parts.num2 .box ul > li .txt img {
+    width: 96px;   
+}
+#contents .parts.num2 .box ul > li .txt h4 {
+    font-family: 'sangsang_title_M';
+    font-size: 2.0rem;
+    font-weight: ;
+    color: #fff;
+    padding-top: 16px;
+}
+#contents .parts.num2 .box ul > li .txt p {
+    width: 80%;
+    margin: 0 auto;
+    color: transparent;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-top: 32px;
+    transition: all 1s;
+}
+#contents .parts.num2 .box ul > li:hover .txt {
+    padding-top: 64px;
+    background: rgba(35, 35, 35, 0.8);
+}
+#contents .parts.num2 .box ul > li:hover .txt p {
+    color: #FFF;   
+}
+
+#contents .parts.num3 .box {
+    height: auto;   
+}
+#contents .parts.num3 .box .bg {
+    background-image: url(../images/sub_intro/bg_02.jpg);
+}
+#contents .parts.num3 .box .curtain {
+    background-color: rgba(35, 35, 35, 0.9);
+    color: #FFF;
+}
+#contents .parts.num3 .box .curtain .image { 
+    display: inline-block;
+    width: 49%;
+    padding-top: 96px;
+    padding-bottom: 56px;
+    vertical-align: top;
+}
+#contents .parts.num3 .box .curtain .image .logo { 
+    width: 400px;
+    height: 400px;
+    margin: 0 auto 32px;
+    background: #FFF;
+    border-radius: 50%;
+    position: relative;
+}
+#contents .parts.num3 .box .curtain .image .logo img { 
+    position: absolute;
+    widows: 256px;
+    top: 45%; left: 52%;
+    transform: translate(-50%, -50%);
+}
+#contents .parts.num3 .box .curtain .image .down_btn {
+    margin-bottom: 10px;
+    padding: 0 72px;
+}
+#contents .parts.num3 .box .curtain .image .down_btn a {
+    display: inline-block;
+    width: 256px;
+    height: 48px;
+    background: #FFF no-repeat;
+    color: #222;
+    line-height: 48px;
+    text-align: left;
+    padding-left: 40px;
+    font-size: 2.0rem;
+    background-image: url(../images/btn/btn_down.png);
+    background-position: 235px, 0;
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(35,35,35, 0.9);
+}
+#contents .parts.num3 .box .curtain .image .down_btn a:hover {
+    background-image: url(../images/btn/btn_down_hover.png);
+    color: #444;
+}
+#contents .parts.num3 .box .curtain .txt { 
+    display: inline-block;
+    width: 49%;
+    padding: 100px 10% 0 8%;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: left;
+    font-size: 2.0rem;
+    line-height: 1.5;
+}
+#contents .parts.num3 .box .curtain .txt .corp { 
+    font-size: 2.4rem;
+    margin-bottom: 64px;
+    
+    /* DEFAULT */
+    position: relative;
+    top: 32px;
+    opacity: 0;
+}
+#contents .parts.num3 .box .curtain .txt .corp p { 
+    margin-bottom: 8px;
+}
+#contents .parts.num3 .box .curtain .txt .ci {
+    /* DEFAULT */
+    position: relative;
+    top: 32px;
+    opacity: 0;
+}
+#contents .parts.num3 .box .curtain .txt .ci h4 { 
+    padding-bottom: 36px
+}
+#contents .parts.num3 .box .curtain .txt .ci p {
+    padding-bottom: 24px;
+}
+
+
+
+
+
+
+
+

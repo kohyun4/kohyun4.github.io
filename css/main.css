@@ -1,0 +1,228 @@
+/*
+    <COLOR>
+    #222222
+    #3C3C3C
+    #848484
+    #DBDBDB
+    #FFFFFF
+    #FFC400 / #F39C12
+
+    <Font>
+    'Roboto' / 100,300,400,500,700,900
+    'Roboto Slab' / 300, 400, 700
+    'Nanum Gothic' / 400, 700
+*/
+
+/* -- --------------------------- CONTENTS --------------------------- -- */
+#main {
+    padding: 150px 0 0px;
+    height: ;
+}
+#main.header_change {
+    padding-top: calc(150px + 48px);   
+}
+#main > section {
+    padding: 0px 0px 200px;
+}
+#main > section .title {
+    font-size: 3.0rem;
+    letter-spacing: 2px;
+    color: #222222;
+    cursor: default;
+    padding-top: 16px;
+    padding-bottom: 56px;
+}
+#main > section .title span {
+    display: inline-block;
+    padding-left: 24px;
+}
+#main > section .title span::after {
+    display: block;
+    content: '';
+    width: 0%;
+    height: 1px;
+    background: #3C3C3C;
+    transition: all 0.5s
+}
+#main > section .title:hover span::after, 
+#main > section.active .title span::after {
+    width: 98%;   
+}
+#main > section .contents {
+    padding: 0 24px 0 24px;
+}
+
+#main > #about {
+    height: ;   
+}
+#main > #works {
+    height: ; 
+}
+#main > #contact {
+    height: ; 
+}
+
+
+/* -- --------------------------- CONTENTS --------------------------- -- */
+
+
+
+
+/* ============================ ABOUT ============================ */
+#main #about { background: rgb(252, 252, 252); }
+#main #about .title {
+    padding-bottom: 48px;   
+}
+#about .greeting {
+    width: 80%;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 2.0rem;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #3C3C3C;
+    letter-spacing: 0.5px;
+    padding-bottom: 100px;
+    cursor: default;
+}
+#about .greeting .bold {
+    font-weight: 700;   
+}
+
+#about .skills { 
+    font-size: 0;
+    padding-bottom: 120px;
+}
+#about .skills>li {
+    display: inline-block;
+    position: relative;
+    width: 18%;
+    padding: 0 3%;
+    vertical-align: top;
+    cursor: default;
+}
+#about .skills>li .circleProgress {
+    display: block;
+    position: relative;
+}
+#about .skills>li h4 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #F39C12;
+    text-align: center;
+    padding-top: 16px;
+}
+#about .skills>li p {
+    width: 90%;
+    margin: 0 0% 0 7%;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #848484;
+    line-height: 1.5;
+    padding-top: 16px;
+}
+
+#about .achievement {
+    width: 80%;
+    font-size: 1.8rem;
+    color: #3C3C3C;
+    line-height: 1.2;
+}
+#about .achievement li {
+    overflow: hidden;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-bottom: 2px;
+}
+#about .achievement li.academy { padding-bottom: 24px; }
+#about .achievement li.project { padding-top: 24px;}
+#about .achievement hr {
+    border-width: 0.5px;
+    border-style: dashed;
+    border-color: #DBDBDB;
+}
+#about .achievement .date {
+    float: right;
+    color: #848484;
+}
+
+
+
+/* ============================ Works ============================ */
+#main #works { background: rgb(255, 255, 255); }
+
+#works .contents ul {
+    overflow: hidden;
+}
+#works .contents ul li {
+    float: left;
+    width: 23.5%; 
+    height: 256px;
+    padding: 0 0.75% 2.0% 0.75%;
+}
+#works .contents ul li a {
+    display: block;
+    position: relative;
+    height: 100%;
+    border: 1px solid #DBDBDB;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+#works .contents li .image {
+    height: 100%;   
+    background: url() no-repeat center top;
+    background-size: cover;
+}
+#works .contents li#ktng .image { background-image: url(../reference/publishing_ktng/detail_00.png); }
+#works .contents li#getajob .image { background-image: url(../reference/publishing_getajob/detail_00.png); background-position: left;}
+#works .contents li#sixInnovation .image { background-image: url(../reference/design_sixInnovation/detail_00.png) }
+#works .contents li#skNUGU .image { background-image: url(../reference/research_skNUGU/detail_00.JPG); }
+#works .contents li#seoulSubway .image { background-image: url(../reference/research_seoulSubway/detail_00.JPG); }
+#works .contents li#uxPlanning .image { background-image: url(../reference/planning_uxPlanning/detail_00.JPG); }
+#works .contents li#pullInPool .image { background-image: url(../reference/design_pullinpool/detail_00.png); }
+#works .contents li#midasins .image { background-image: url(../reference/planning_midasins/detail_00.png); }
+#works .contents li#tankauction .image { background-image: url(../reference/planning_tankauction/detail_00.png); }
+
+#works .contents .image .category {
+    background: rgba(34,34,34,0.9); /*#3C3C3C = rgb(60,60,60), #222222 = rgb(34,34,34) */  
+    color: #DBDBDB;
+    height: 100%;
+    padding-top: 8px;
+    padding-left: 16px;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    transition: all 0.75s;
+}
+#works .contents .txt {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    text-align: center;
+    color: #FFC400;
+    transition: all 0.5s
+}
+#works .contents .txt .name {
+    font-size: 2.0rem;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+#works .contents .txt .date {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+#works .contents a:hover .image .category {
+    background: rgba(34,34,34,0);
+}
+#works .contents a:hover .txt {
+    height: 25%;
+}
+
+
+
+
+/* ============================ Contact ============================ */
+#main #contact { background: rgb(252, 252, 252); }

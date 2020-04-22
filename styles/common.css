@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html {
+    height: 100%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.0rem;
+    color: #161616;
+    height: 100%;
+}
+
+
+/* -- --------------------------- header --------------------------- -- */
+#header {
+    position: fixed;
+    width: 100%;
+
+    /*border-bottom: solid 1px rgba(255, 255, 255, 0.5);*/
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 999;
+}
+
+#header .logo {
+    float: left;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 24px 0;
+    padding-left: 32px;
+}
+#header .logo a {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+#header .gnb {
+    float: right;
+    height: 100%;
+    padding: 24px 0;
+    padding-right: 32px;
+} 
+#header .gnb ul > li {
+    float: left;
+    padding-left: 24px;
+}  
+#header .gnb ul > li > a {
+    display: block;
+
+    vertical-align: middle;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+#header .gnb li a:hover {
+    color: #069cd9; 
+}
+
+
+
+/* -- --------------------------- video --------------------------- -- */
+.section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.section video, .section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.section .more_btn {
+    position: absolute;
+    right: 10%;
+    bottom: 100px;
+}
+
+
+
+
+

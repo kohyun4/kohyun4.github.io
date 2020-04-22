@@ -3,403 +3,96 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-    <link rel="shortcut icon" type="image/x-icon" href="images/icon/favicon.ico">
-    <link rel="apple-touch-icon" href="images/icon/favicon.png" >
-    <title>고현의 포트폴리오</title>
-    <meta name="description" content="고현의 UX 기획 포트폴리오 웹 페이지">
-    
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="고현의 포트폴리오" />
-    <meta property="og:description" content="고현의 UX 기획 포트폴리오 웹 페이지" />
-    <meta property="og:url" content="http://www.hyunko.com" />
-    <meta property="og:image" content="http://www.hyunko.com/images/icon/favicon.png" />
-    
-    
-    <!-- Google Webmaster -->
-    <meta name="google-site-verification" content="X2HO-FYQbakc2IqEGwWBFDCUpwqx2910SbfgdWm-ulY">
-    <!-- Google Webmaster -->
-    
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5Z44QJT');</script>
-    <!-- End Google Tag Manager -->
-    
-    <!-- zotabox -->
-    <script async src="//static.zotabox.com/b/4/b43ccb90c64b9b941dc5f5dbaa918f8e/widgets.js"></script>
-    <!-- zotabox -->
-    
-    <!-- ---------------- FONTS ---------------- -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:100,300,400,500,700,900" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&amp;subset=korean" rel="stylesheet" />
-    <!-- ---------------- FONTS ---------------- -->
+    <link rel="shortcut Icon" href="images/favicon.ico" />
+    <link rel="apple-touch-icon" href="images/favicon.png" />
+    <title>HYUN KO</title>
 
-    
-    <!-- ---------------- ICON ---------------- -->
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <!-- ---------------- ICOM ---------------- -->
-    
-    
-    <!-- ---------------- CSS ---------------- -->
-    <link href="css/reset.css" type="text/css" rel="stylesheet">
-    <link href="css/common.css" type="text/css" rel="stylesheet">
-    <link href="css/main.css" type="text/css" rel="stylesheet">
-    <link href="css/mediaQuery.css" rel="stylesheet"/>
-    <!-- ---------------- CSS ---------------- -->
+    <!-- -------------------- CSS -------------------- -->
+    <link href="styles/reset.css" type="text/css" rel="stylesheet"/>
+    <link href="styles/common.css" type="text/css" rel="stylesheet"/>
+    <link href="styles/fullpage.css" />
+    <style>
+        
+    </style>
+    <!-- -------------------- CSS -------------------- -->
     
     
-    <!-- ---------------- JS & jQuery ---------------- -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/txtRotate.js"></script>
-    <script src="js/progressBar.js"></script>
-    <script src="js/mainScript.js"></script>
-    <script></script>
-    <!-- ---------------- JS & jQuery ---------------- -->
+    <!-- -------------------- JS & jQuery -------------------- -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="scripts/fullpage.js"></script>
+    <script src="scripts/script.js"></script>
+    <!-- -------------------- JS & jQuery -------------------- -->
 </head>
     
     
     
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Z44QJT"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-<!-- ---------- -- ---------- HEADER ---------- -- ---------- -->
-<header id="header" class="">
-    <div class="wrapper">
-        <h1 class="title">
-            <a href="index.html">
-                <span class="sub_title">PORTFOLIO <span style="font-weight: 100">-</span> </span>  
-                <span class="name">KO HYUN</span>
-            </a>
-        </h1>
+<header id="header">
+    <h1 class="logo">
+        <a href="index.html">
+            HYUN KO
+        </a>
+    </h1>
+
+    <div class="gnb" id="gnb">
+        <div class="gnb_menu">
+            <ul>
+                <li>
+                    <a href="#" target="_self">Instagram</a>
+                </li>
+                <li>
+                    <a href="#" target="_self">Facebook</a>
+                </li>
+                <li>
+                    <a href="#" target="_self">KaKao</a>
+                </li>
+                <li>
+                    <a href="#" target="_self">YouTube</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </header> 
-
-<!-- ---------- -- ---------- HEADER ---------- -- ---------- -->
     
     
-<!-- ---------- -- ---------- MAIN ---------- -- ---------- -->
-<section id="visual">    
-    <div class="wrapper">
-        <div class="txtEvent">
-            <h2>
-                Hi! I'm <span class="text-primary">Hyun</span> 
-            </h2>
-            <h2> studying </h2>
-            <h2>
-              <span class="txt-rotate text-primary" data-period="1000" data-rotate='[ "UX Design", "HCI", "Web Design", "Web Publishing", "Web Programming", "Media Design"]'></span> 
-            </h2>
-            <h2> 
-                and <span class="text-primary"> so much more</span>.
-            </h2>
-        </div>
+<div id="fullpage">
+    <div class="section">
+        <img src="images/main_00.jpg"/>
+        <p class="more_btn">
+            <a href="#fakelink"><img src="images/btn_more_white.png" alt="btn"></a>
+        </p>
     </div>
-</section>
     
-<nav id="gnb">
-    <div class="wrapper">
-        <ul class="list">
-            <li><a href="#fake_link" id="about">About</a></li>
-            <li><a href="#fake_link" id="works">Works</a></li>
-            <li><a href="#fake_link" id="contact">Contact</a></li>
-        </ul>
+    <div class="section">
+        <img src="images/main_01.jpg"/>
+        <p class="more_btn">
+            <a href="#fakelink"><img src="images/btn_more_white.png" alt="btn"></a>
+        </p>
     </div>
-</nav>
     
-<div id="main">
-    <section id="about">
-        <div class="wrapper">
-            <h2 class="title">
-                <span>About.</span>
-            </h2>
-            
-            <div class="contents">
-                <p class="greeting">
-                    안녕하세요. 고현입니다 <span class="bold">:)</span>
-                    <br>기계공학과 산업디자인을 전공하고, <span class="bold">UX 기획자</span>로 활동하고 있습니다. 웹 프로그래밍에 관심이 많고, 책 읽는 것을 좋아합니다. 
-                    지금까지 '정보안내체계 가이드라인 제작', 'VUI 기반 정보구조 가이드 설계' 등 정부 및 대기업 연구 프로젝트에 참여한 경험이 있습니다. 현재는 웹/앱 기획자로써 시스템 및 솔루션 기획, 대외 커뮤니케이션, 스토리보드 작성 등의 업무를 수행하고 있습니다.
-                    
-                </p>
+    <div class="section">
+        <img src="images/main_02.jpg"/>
+        <p class="more_btn">
+            <a href="#fakelink"><img src="images/btn_more_white.png" alt="btn"></a>
+        </p>
+    </div>
+    
+    <div class="section">
+        <img src="images/main_03.jpg"/>
+        <p class="more_btn">
+            <a href="#fakelink"><img src="images/btn_more_white.png" alt="btn"></a>
+        </p>
+    </div>
+    
+    <div class="section">
+        <img src="images/main_04.jpg"/>
+        <p class="more_btn">
+            <a href="#fakelink"><img src="images/btn_more_white.png" alt="btn"></a>
+        </p>
+    </div>
 
-                <ul class="skills">
-                    <li>
-                        <span id="circleProgress-0" class="circleProgress"level="85"></span>
-                        <h4>Design</h4>
-                        <p>
-                            일러스트, 스케치 같은 디자인 툴을 다룰줄 알며, N스크린에 대한 이슈를 이해하고 있습니다.
-                        </p>
-                    </li>
-                    
-                    <li>
-                        <span id="circleProgress-1" class="circleProgress"level="90"></span>
-                        <h4>Publishing</h4>
-                        <p>
-                            DOM의 개념을 이해하고 있으며, 디자인 시안을 웹표준에 맞는 웹페이지로 구현할 수 있습니다.
-                        </p>
-                    </li>
-                    
-                    <li>
-                        <span id="circleProgress-2" class="circleProgress"level="75"></span>
-                        <h4>Languages</h4>
-                        <p>
-                            중급 수준의 영어 커뮤니케이션이 가능하며, 영어로된 문서를 읽거나 작성할 수 있습니다.
-                        </p>
-                    </li>
-                    
-                    <li>
-                        <span id="circleProgress-3" class="circleProgress"level="70"></span>
-                        <h4>Programming</h4>
-                        <p>
-                            관련 용어들의 의미를 알고 있으며, 기본적인 문법 및 객체의 개념을 이해하고 있습니다.
-                        </p>
-                    </li>
-                </ul>
-                
-                <ul class="achievement">
-                    <li class="academy">
-                        기계공학부 기계설계학(학사) / 졸업 
-                        <span class="date">Feb. 2015</span>
-                    </li>
-                    <li class="academy">
-                        산업디자인학과(석사) UX Design Lab / 수료 
-                        <span class="date">Feb. 2017</span>
-                    </li>
-                    <li class="academy">
-                        스마트 웹·앱 콘텐츠 개발 과정 / 수료
-                        <span class="date">Dec. 2017 - Jun. 2018</span>
-                    </li>
-                    <li class="academy">
-                        정보처리기사 / 취득
-                        <span class="date">Nov. 2019</span>
-                    </li>
-                    <hr> <!-- ------------------------------- -->
-                    <li class="project">
-                        '서울 지하철역사 정보안내체계 가이드라인 개선' / 연구원
-                        <span class="date">May. 2015 - Dec. 2015</span>
-                    </li>
-                    <li class="project">
-                        'SK NU300 HW 고도화를 위한 DUX 가이드라인 제작' / 연구원
-                        <span class="date">Mar. 2017 - May. 2017</span>
-                    </li>
-                    <li class="project">
-                        TRAMS - 기획팀 / 팀장
-                        <span class="date">Jul. 2018 - Present</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    
-<!-- ================================================================= -->
-    
-    <section id="works">
-        <div class="wrapper">
-            <h2 class="title">
-                <span>Works.</span>
-            </h2>
-            
-            <div class="contents">
-                <ul>
-                    <li id="tankauction" class="planning">
-                        <a href="subpages/sub_works_planning_tankauction.html" target="_self">
-                            <div class="image">
-                                <p class="category">#planning</p>
-                            </div>
-                            <div class="txt">
-                                <p class="name">경매 정보 서비스</p>
-                                <p class="date">May, &nbsp;2019</p>
-                            </div>
-                        </a>
-                    </li>
-                    
-                    <li id="midasins" class="planning">
-                        <a href="subpages/sub_works_planning_midasins.html" target="_self">
-                            <div class="image">
-                                <p class="category">#planning</p>
-                            </div>
-                            <div class="txt">
-                                <p class="name">보험 조회 서비스</p>
-                                <p class="date">Nov, &nbsp;2018</p>
-                            </div>
-                        </a>
-                    </li>
-                    
-                    <li id="ktng" class="publishing">
-                        <a href="subpages/sub_works_publishing_ktng.html" target="_self">
-                            <div class="image">
-                                <p class="category">#publishing</p>
-                            </div>
-                            <div class="txt">
-                                <p class="name">KT&amp;G Renewal</p>
-                                <p class="date">April, &nbsp;2018</p>
-                            </div>
-                        </a>
-                    </li>
-                    
-                    <li id="getajob" class="publishing">
-                        <a href="subpages/sub_works_publishing_getajob.html" target="_self">
-                            <div class="image">
-                                <p class="category">#publishing</p>
-                            </div>
-                            <div class="txt">
-                                <p class="name">Let's Get a Job</p>
-                                <p class="date">March, &nbsp;2018</p>
-                            </div>
-                        </a>
-                    </li>
-                    
-                    <li id="skNUGU" class="research">
-                        <a href="subpages/sub_works_research_skNUGU.html" target="_self">
-                            <div class="image">
-                                <p class="category">#research</p>
-                            </div>
-                            <div class="txt">
-                                <p class="name">VUI 가이드 설계</p>
-                                <p class="date">May, &nbsp;2017</p>
-                            </div>
-                        </a>
-                    </li>
-                    
-                    <li id="pullInPool" class="design">
-                        <a href="subpages/sub_works_design_pullInPool.html" target="_self">
-                            <div class="image">
-                                <p class="category">#design</p>
-                            </div>
-                            <div class="txt">
-                                <p class="name">Pull In Pool</p>
-                                <p class="date">Jan, &nbsp;2017</p>
-                            </div>
-                        </a>
-                    </li>
-                    
-                    <li id="sixInnovation" class="design">
-                        <a href="subpages/sub_works_design_sixInnovation.html" target="_self">
-                            <div class="image">
-                                <p class="category">#design</p>
-                            </div>
-                            <div class="txt">
-                                <p class="name">Six Innovations</p>
-                                <p class="date">Appril, &nbsp;2016</p>
-                            </div>
-                        </a>
-                    </li>
-                    
-                    <li id="uxPlanning" class="planning">
-                        <a href="subpages/sub_works_planning_uxPlanning.html" target="_self">
-                            <div class="image">
-                                <p class="category">#planning</p>
-                            </div>
-                            <div class="txt">
-                                <p class="name">나에 보내는 편지</p>
-                                <p class="date">Dec, &nbsp;2015</p>
-                            </div>
-                        </a>
-                    </li>
-                    
-                    <li id="seoulSubway" class="research">
-                        <a href="subpages/sub_works_research_seoulSubway.html" target="_self">
-                            <div class="image">
-                                <p class="category">#research</p>
-                            </div>
-                            <div class="txt">
-                                <p class="name">정보체계 가이드 개선</p>
-                                <p class="date">Dec, &nbsp;2015</p>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    
-<!-- ================================================================= -->
-    
-    <section id="contact">
-        <div class="wrapper">
-            <h2 class="title">
-                <span>Contact.</span>
-            </h2>
-            
-            <div class="contents">
-            
-                <p>kohyun4@naver.com</p>
-                
-            </div>
-        </div>
-    </section>
-    
 </div>
-
-<p class="top_btn">
-    TOP
-</p>
-<!-- ---------- -- ---------- MAIN ---------- -- ---------- -->
-
-    
-<!-- ---------- -- ---------- FOOTER ---------- -- ---------- -->
-<footer id="footer">
-    <ul class="sns">
-        <li><a href="#fake_link"><i class="far fa-envelope"></i></a></li>
-        <li><a href="#fake_link"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a href="#fake_link"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="https://blog.naver.com/kohyun4" target="_blank"><i class="fab fa-blogger-b"></i></a></li>
-    </ul>
-
-    <p class="copyright">
-        &copy; Copyright 2018. <span class="writer">designed by Hyun Ko.</span> 
-    </p>
-    <p class="version">
-        ver 2.2.4
-    </p>
-</footer>
-<!-- ---------- -- ---------- FOOTER ---------- -- ---------- -->
-    
-<!-- Channel Plugin Scripts -->
-<script>
-  (function() {
-    var w = window;
-    if (w.ChannelIO) {
-      return (window.console.error || window.console.log || function(){})('ChannelIO script included twice.');
-    }
-    var d = window.document;
-    var ch = function() {
-      ch.c(arguments);
-    };
-    ch.q = [];
-    ch.c = function(args) {
-      ch.q.push(args);
-    };
-    w.ChannelIO = ch;
-    function l() {
-      if (w.ChannelIOInitialized) {
-        return;
-      }
-      w.ChannelIOInitialized = true;
-      var s = document.createElement('script');
-      s.type = 'text/javascript';
-      s.async = true;
-      s.src = 'https://cdn.channel.io/plugin/ch-plugin-web.js';
-      s.charset = 'UTF-8';
-      var x = document.getElementsByTagName('script')[0];
-      x.parentNode.insertBefore(s, x);
-    }
-    if (document.readyState === 'complete') {
-      l();
-    } else if (window.attachEvent) {
-      window.attachEvent('onload', l);
-    } else {
-      window.addEventListener('DOMContentLoaded', l, false);
-      window.addEventListener('load', l, false);
-    }
-  })();
-  ChannelIO('boot', {
-    "pluginKey": "59a96cc6-3605-42e1-af87-39cd60b7044a"
-  });
-</script>
-<!-- End Channel Plugin -->
-    
 </body>
 </html>
